@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Raleway");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+}
+
+a{ text-decoration: none;}
+p{
+  padding: 20px;
+  line-height: 1.5rem;
+}
+header{
+  padding: 20px;
+  padding-bottom: 10px;
+  text-transform: lowercase;
+  border-bottom: 2px solid white;
+  background: rgba(0,0,0,0.5);
+}
+body{
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: #130e26;
+  margin: 0;
+}
+
+div.signature {
+  font-family: "Amatic SC", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 4rem;
+  position: fixed;
+  text-align: center;
+  z-index: 100;
+  right: 0;
+  bottom: 0;
+  margin-right: 20px;
+}
+
+div.signature h1{
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 2em;
+}
+
+div.signature h3{
+  padding: 0;
+  margin: 0;
+  font-size: 1.2em;
+  color: lightblue;
+  position: relative;
+  top: -20px;
+}
+body header h1 {
+  padding:0;
+  margin:0;
+}
+
+body header h1 a{
+  color: white;
+}
+
+body header ul {
+  list-style-type: none;
+  margin:none;
+  padding:0px;
+}
+
+body header ul li {
+  display: inline;
+  padding-right: 20px;
+  color: lightblue;
+}
+
+body header ul li.active a{
+  color: #fff1ac;
+}
+
+body header ul li a{
+  color: lightblue;
+}
+
+body header h1 span{
+  font-size: 0.95em;
+}
+
+div.resume {
+  padding: 20px;
+}
+
+div.resume h2:nth-child(4n){
+  color: lightblue;
+}
+
+div.resume h2:nth-child(4n+2){
+  color: #fff1ac;
+}
+
+div.grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: flex-start;
+}
+div.grid div{
+height: 200px;
+width: 200px;
+border: solid white 1px;
+margin-top: 3%;
+}
+
+div.form {
+  background-color: lightblue;
+  margin: 40px;
+  margin-top: 20px;
+}
+
+form {
+  position: relative;
+  color: black;
+  padding: 20px;
+}
+
+div.form div{
+  height: 2.5rem;
+}
+form button{
+  border: solid black 1px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
